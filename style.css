@@ -335,6 +335,7 @@ body {
     width: 700px;
     height: max-content;
     overflow-x: scroll;
+    overflow-Y: hidden;
     padding: 5px 0px;
 }
 
@@ -351,6 +352,8 @@ body {
     gap: 10px;
     width: max-content;
     overflow-x: scroll;
+    overflow-Y: hidden;
+
     white-space: nowrap;
     cursor: pointer;
     scroll-snap-type: x mandatory;
